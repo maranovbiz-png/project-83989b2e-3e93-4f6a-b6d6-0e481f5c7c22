@@ -6,7 +6,7 @@ const stats = [
   { value: "14+", label: "Лет опыта" },
   { value: "12 000+", label: "Ремонтов выполнено" },
   { value: "98%", label: "Довольных клиентов" },
-  { value: "12", label: "Месяцев гарантии" },
+  { value: "100", label: "Дней гарантии" },
 ];
 
 const team = [

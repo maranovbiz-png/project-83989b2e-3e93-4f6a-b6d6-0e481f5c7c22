@@ -15,7 +15,7 @@ const services = [
 ];
 
 const advantages = [
-  { icon: Shield, title: "Гарантия", description: "До 12 месяцев на все виды работ" },
+  { icon: Shield, title: "Гарантия", description: "До 100 дней на все виды работ" },
   { icon: Clock, title: "Быстрый ремонт", description: "Большинство ремонтов за 1–3 дня" },
   { icon: Award, title: "Опыт 14+ лет", description: "Квалифицированные инженеры" },
 ];
