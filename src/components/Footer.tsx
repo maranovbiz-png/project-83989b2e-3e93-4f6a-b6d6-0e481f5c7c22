@@ -36,15 +36,15 @@ const Footer = () => {
             <div className="flex flex-col gap-3 text-sm text-section-dark-foreground/60">
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-accent" />
-                <span>+7 (4852) 00-00-00</span>
+                <a href="tel:+79605420427" className="hover:text-primary transition-colors">+7 (960) 542-04-27</a>
               </div>
               <div className="flex items-center gap-2.5">
                 <MapPin className="w-4 h-4 text-accent" />
-                <span>г. Ярославль, ул. Примерная, д. 1</span>
+                <span>г. Ярославль, ул. Куропаткова</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Clock className="w-4 h-4 text-accent" />
-                <span>Пн–Сб: 9:00–19:00</span>
+                <span>Пн–Сб: 9:00–18:00</span>
               </div>
             </div>
           </div>
