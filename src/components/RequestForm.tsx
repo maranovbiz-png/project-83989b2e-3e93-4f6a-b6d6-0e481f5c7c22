@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
-const TELEGRAM_BOT_TOKEN = "";
-const TELEGRAM_CHAT_ID = "";
+const TELEGRAM_BOT_TOKEN = "8631782403:AAGYxE9DGINs5nDtxsM_5Imb_6Bvv3yrj5s";
+const TELEGRAM_CHAT_ID = "368177673";
 
 const RequestForm = () => {
   const { toast } = useToast();
