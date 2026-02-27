@@ -118,6 +118,7 @@ const RequestForm = () => {
               <option value="Телевизор">Телевизор</option>
               <option value="Микроволновая печь">Микроволновая печь</option>
               <option value="Электронная плата">Электронная плата</option>
+              <option value="Робот-пылесос">Робот-пылесос</option>
               <option value="Другое">Другое</option>
             </select>
           </div>

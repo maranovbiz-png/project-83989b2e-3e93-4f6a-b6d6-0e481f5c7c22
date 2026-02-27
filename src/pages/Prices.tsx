@@ -1,5 +1,5 @@
 import Layout from "@/components/Layout";
-import { Monitor, Laptop, Tv, Microwave, CircuitBoard } from "lucide-react";
+import { Monitor, Laptop, Tv, Microwave, CircuitBoard, Bot } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface PriceItem {
@@ -69,6 +69,18 @@ const priceData: PriceCategory[] = [
       { service: "Замена микросхем", price: "от 2 000 ₽" },
       { service: "Восстановление дорожек", price: "от 1 500 ₽" },
       { service: "Прошивка микроконтроллеров", price: "от 2 000 ₽" },
+    ],
+  },
+  {
+    icon: Bot,
+    title: "Роботы-пылесосы",
+    items: [
+      { service: "Диагностика", price: "от 500 ₽" },
+      { service: "Замена аккумулятора", price: "от 2 500 ₽" },
+      { service: "Замена щёток/валиков", price: "от 1 000 ₽" },
+      { service: "Ремонт платы управления", price: "от 3 000 ₽" },
+      { service: "Замена датчиков", price: "от 1 500 ₽" },
+      { service: "Замена мотора", price: "от 2 500 ₽" },
     ],
   },
 ];
