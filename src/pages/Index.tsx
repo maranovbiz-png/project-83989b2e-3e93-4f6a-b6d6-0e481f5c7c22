@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Monitor, Laptop, Tv, Microwave, CircuitBoard, Wrench, Shield, Clock, Award } from "lucide-react";
+import { Monitor, Laptop, Tv, Microwave, CircuitBoard, Wrench, Shield, Clock, Award, Bot } from "lucide-react";
 import Layout from "@/components/Layout";
 import ServiceCard from "@/components/ServiceCard";
 import RequestForm from "@/components/RequestForm";
@@ -11,6 +11,7 @@ const services = [
   { icon: Tv, title: "Ремонт телевизоров", description: "Ремонт ЖК, LED и Smart TV любых брендов. Замена подсветки и матриц." },
   { icon: Microwave, title: "Ремонт СВЧ-печей", description: "Замена магнетронов, ремонт блоков управления и механических частей." },
   { icon: CircuitBoard, title: "Ремонт электронных плат", description: "Пайка BGA, замена микросхем, восстановление дорожек и диагностика." },
+  { icon: Bot, title: "Ремонт роботов-пылесосов", description: "Замена щёток, аккумуляторов, датчиков, ремонт плат управления и моторов." },
 ];
 
 const advantages = [
@@ -41,7 +42,7 @@ const Index = () => {
               <span className="text-gradient">техники и электроники</span>
             </h1>
             <p className="text-lg text-section-dark-foreground/70 mb-8 max-w-lg">
-              Ремонтируем компьютеры, ноутбуки, телевизоры, микроволновые печи и электронные платы. Быстро, качественно, с гарантией.
+              Ремонтируем компьютеры, ноутбуки, телевизоры, микроволновые печи, электронные платы и роботы-пылесосы. Быстро, качественно, с гарантией.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
