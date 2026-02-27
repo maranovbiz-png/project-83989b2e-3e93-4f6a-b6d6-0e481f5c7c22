@@ -75,8 +75,9 @@ const About = () => {
           </div>
           <h2 className="text-2xl font-extrabold text-foreground mb-3">Наш адрес</h2>
           <p className="text-muted-foreground mb-6">
-            г. Ярославль, ул. Примерная, д. 1<br />
-            Пн–Сб: 9:00–19:00
+            г. Ярославль, ул. Куропаткова<br />
+            Пн–Сб: 9:00–18:00<br />
+            Тел.: <a href="tel:+79605420427" className="text-primary hover:underline">+7 (960) 542-04-27</a>
           </p>
           <Link
             to="/#request"
