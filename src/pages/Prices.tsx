@@ -53,7 +53,7 @@ const priceData: PriceCategory[] = [
     icon: Microwave,
     title: "Микроволновые печи",
     items: [
-      { service: "Диагностика", price: "от 500 ₽" },
+      { service: "Диагностика", price: "Бесплатно" },
       { service: "Замена магнетрона", price: "от 2 500 ₽" },
       { service: "Ремонт блока управления", price: "от 1 500 ₽" },
       { service: "Замена двигателя тарелки", price: "от 1 000 ₽" },
@@ -64,7 +64,7 @@ const priceData: PriceCategory[] = [
     icon: CircuitBoard,
     title: "Электронные платы",
     items: [
-      { service: "Диагностика", price: "от 1 000 ₽" },
+      { service: "Диагностика", price: "Бесплатно" },
       { service: "Пайка BGA-чипов", price: "от 3 000 ₽" },
       { service: "Замена микросхем", price: "от 2 000 ₽" },
       { service: "Восстановление дорожек", price: "от 1 500 ₽" },
@@ -75,7 +75,7 @@ const priceData: PriceCategory[] = [
     icon: Bot,
     title: "Роботы-пылесосы",
     items: [
-      { service: "Диагностика", price: "от 500 ₽" },
+      { service: "Диагностика", price: "Бесплатно" },
       { service: "Замена аккумулятора", price: "от 2 500 ₽" },
       { service: "Замена щёток/валиков", price: "от 1 000 ₽" },
       { service: "Ремонт платы управления", price: "от 3 000 ₽" },
@@ -94,7 +94,7 @@ const Prices = () => {
             <p className="text-accent font-mono font-bold text-sm tracking-widest uppercase mb-2">Прайс-лист</p>
             <h1 className="text-3xl md:text-4xl font-extrabold text-foreground mb-3">Цены на ремонт</h1>
             <p className="text-muted-foreground max-w-lg mx-auto">
-              Точная стоимость определяется после диагностики. Указаны ориентировочные цены.
+              Точная стоимость определяется после диагностики. Диагностика бесплатно только при выполнении ремонта.
             </p>
           </div>
 
