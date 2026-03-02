@@ -20,7 +20,7 @@ const Header = () => {
             <Monitor className="w-5 h-5 text-primary-foreground" />
           </div>
           <span className="text-lg font-bold text-section-dark-foreground tracking-tight">
-            ТехноСервис
+            ЯрТехноСервис
           </span>
         </Link>
 

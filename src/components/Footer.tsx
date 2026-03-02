@@ -11,10 +11,10 @@ const Footer = () => {
               <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
                 <Monitor className="w-4 h-4 text-primary-foreground" />
               </div>
-              <span className="text-lg font-bold tracking-tight">ТехноСервис</span>
+              <span className="text-lg font-bold tracking-tight">ЯрТехноСервис</span>
             </Link>
             <p className="text-section-dark-foreground/60 text-sm leading-relaxed">
-              Профессиональный ремонт компьютеров, ноутбуков, телевизоров и электроники в Ярославле с 2010 года.
+              Профессиональный ремонт компьютеров, ноутбуков, телевизоров и электроники в Ярославле с 2010 года
             </p>
           </div>
 
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-section-dark-foreground/10 mt-10 pt-6 text-center text-xs text-section-dark-foreground/40">
-          © {new Date().getFullYear()} ТехноСервис. Все права защищены.
+          © {new Date().getFullYear()} ЯрТехноСервис. Все права защищены.
         </div>
       </div>
     </footer>

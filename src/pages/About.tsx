@@ -23,7 +23,7 @@ const About = () => {
         <div className="container max-w-3xl text-center">
           <p className="text-accent font-mono font-bold text-sm tracking-widest uppercase mb-2">О компании</p>
           <h1 className="text-3xl md:text-4xl font-extrabold text-foreground mb-4">
-            ТехноСервис — надёжный ремонт техники в Ярославле
+            ЯрТехноСервис — надёжный ремонт техники в Ярославле
           </h1>
           <p className="text-muted-foreground text-lg leading-relaxed">
             Мы работаем с 2010 года и за это время выполнили более 12 000 ремонтов.
